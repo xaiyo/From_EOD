@@ -169,8 +169,9 @@ Wi$e@dmin724
 ```   
 ### Save file 
 
->C:\Daily Report > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard folder
->C>:\ifrs > Open > Open LN904_KLS > save as excel file (.xlsx) > Import_data_Collection Platform > LN904_KLS
+>C:\Daily Report > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard folder > KLS_LN803
+>
+>C:\ifrs > Open LN904_KLS > save as excel file (.xlsx) > Import_data_Collection Platform > LN904_KLS
 
 ### Remote to Server : 10.100.13.10
    - Go to D:\wfbackup Move file WFWH to D:\wfbackup_WH, 
