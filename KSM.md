@@ -1,5 +1,6 @@
-## KSM
-### Remote desktop to 10.102.34.29
+# KSM
+
+## Remote desktop to 10.102.34.29
 ```bash
 .\wiseksm
 Wi$e@dm1n
@@ -9,6 +10,7 @@ Wi$e@dm1n
    2.  Opening day (stats: ONLINE and Current working date must be the next date)
 
 ### Export report (After EOD)
+
 1. LN051T
    - Navigate to MIS Report > General ledger report > LN051T
    - Click “Init ” and select criteria as below
@@ -23,28 +25,7 @@ Wi$e@dm1n
    - Export
    - Close
 
-2. CP23
-   - Navigate to MIS Report > Collection report > CP23
-   - Click “Init ” and select criteria as below
-   ```
-   Branch : Head Office 
-   To Date : Current Date
-   ```
-   - Accept
-   - Export
-   - Close
-3. LN904
-   - Navigate to MIS Report > Collection report > LN904
-   - Click “Init ” and select criteria as below
-   ```
-   Branch : Head Officer
-   To Date : Current Date
-   ```
-   - Accept
-   - Export
-   - Close
-
-4. LN803A
+2. LN803A
    - Navigate to MIS Report > Credit report > LN803A
    - Click “Init ” and select criteria as below
    ```
@@ -58,8 +39,7 @@ Wi$e@dm1n
    - Export
    - Close
 
-
- 5. LN803
+ 3. LN803
     - Navigate to MIS Report > Credit report > LN803
     - Click “Init ” and select criteria as below
     ```
@@ -73,12 +53,33 @@ Wi$e@dm1n
     - Export
     - Close
 
-
-6. LN156
+4. LN156
    - Navigate to MIS Report > Credit report > LN156
    - Click “Init ” and select criteria as below
    ```
    To Date : Current Date 
+   ```
+   - Accept
+   - Export
+   - Close
+     
+5. CP23
+   - Navigate to MIS Report > Collection report > CP23
+   - Click “Init ” and select criteria as below
+   ```
+   Branch : Head Office 
+   To Date : Current Date
+   ```
+   - Accept
+   - Export
+   - Close
+     
+6. LN904
+   - Navigate to MIS Report > Collection report > LN904
+   - Click “Init ” and select criteria as below
+   ```
+   Branch : Head Officer
+   To Date : Current Date
    ```
    - Accept
    - Export
@@ -108,4 +109,5 @@ Wi$e@dm1n
    00435_LN156_2139.XLS
    ```
 ### Save file 
->C> ifrs > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard folder 
+>C> ifrs > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard folder
+>C> BPW_Reprot > Open LN904 File > save as excel file (.xlsx) > Import_data_Collection Platform > folder LN904_KSM
