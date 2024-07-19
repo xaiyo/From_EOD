@@ -98,6 +98,7 @@ Wi$e@dm1n
    - Close
 
 ### Copy File
+
 >D:\client TO C:\ifrs
    ```
    000435_CP23_2030.XLS
@@ -109,6 +110,6 @@ Wi$e@dm1n
    00435_LN156_2139.XLS
    ```
 ### Save file 
->C> ifrs > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard folder
+>C> ifrs > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard >KSM_LN803
 >
->C> BPW_Reprot > Open LN904 File > save as excel file (.xlsx) > Import_data_Collection Platform > folder LN904_KSM
+>C> BPW_Reprot > Open LN904 File > save as excel file (.xlsx) > Import_data_Collection Platform > LN904_KSM
