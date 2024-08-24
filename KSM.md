@@ -30,7 +30,7 @@ Wi$e@dm1n
    - Click “Init ” and select criteria as below
    ```
    Business : Leave Blank
-   Form Date : 1 year Back
+   Form Date : 01/10/2023 - Current date
    To Date : Current Date 
    Loan Origination Status : All
    Branch : Head Office
