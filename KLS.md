@@ -106,7 +106,7 @@ Wi$e@dmin724
    - Click “Init ” and select criteria as below
    ```
    Business : All
-   From Date : 1 year back
+   From Date : 01/10/2023 - Current date
    To Date : Current Date 
    Loan Origination Status : All
    Brach : Head Office
