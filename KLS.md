@@ -1,4 +1,4 @@
-## KLS
+# KLS
 
 ### Remote desktop to 10.102.34.222
 
@@ -7,6 +7,8 @@
 Kls@d18$
 Password@!!!###
 ```
+
+
 
 ### Export report (Before EOD)
 
@@ -168,12 +170,13 @@ Wi$e@dmin724
 7. 000435_LN805A_2027.XSL
 8. 000435_LN803A_2139.XLS 
 9. 000435_LN156_2202.XSL
-```   
+```
+
 ### Save file 
 
->C:\Daily Report > Open LN803 File > save as excel file (.xlsx) > Sale_Dashboard folder > KLS_LN803
+>C:\Daily Report => Open LN803 File => save as excel file (.xlsx) => Sale_Dashboard folder => KLS_LN803
 >
->C:\ifrs > Open LN904_KLS > save as excel file (.xlsx) > Import_data_Collection Platform > LN904_KLS
+>C:\ifrs > Open LN904_KLS => save as excel file (.xlsx) => Import_data_Collection Platform => LN904_KLS
 
 ### Remote to Server : 10.100.13.10
    - Go to D:\wfbackup Move file WFWH to D:\wfbackup_WH, 
@@ -181,5 +184,54 @@ Wi$e@dmin724
 
 ### Restart SQL 
    1.  Restart Service SQL Server
-   2.  Service > SQL Server > Restart > OK.
-   3.  Task schedule > running > command Run > OK
+   2.  Service => SQL Server => Restart => OK.
+   3.  Task schedule => running > command Run > OK
+
+
+```
+```
+
+# EOM => List of reports to generate after run batch on EOD
+
+```
+1.	LN803P and LN803B (KLS and KSM) – For BD 
+-	Select end of month
+-	After generate copy report to share drive =>Diary report =>manual =>LN803P and LN803B
+-	Done
+```
+```
+2.	LN804B (KLS and KSM) – For BD
+-	Select end of month
+-	After generate copy to drive =>Diary report =>manual =>LN804B
+```
+
+#### 3.	LN801 (KLS) – For Risk
+
+>-	Open excel file LN801 in Drive D on server 10.102.34.29
+>	
+>- This Pc =>New Volume(D:) =>LN801 =>LN801 as of 30.04.2024_2
+```
+-	Go to query tab
+-	Go to edit
+-	Edit query change the date to end of month
+-	Close and load
+-	After finished copy file to =>Diary report =>manual =>LN801
+```
+```
+4.	LN111 (KSM) – For Risk
+-	Generate in wise
+-	Select end of month
+-	After finished copy file to =>Diary report =>manual =>LN111
+```
+### ກ່ອນລັນ EOD
+```
+5.	LN051A (generate before EOD only KLS) – For Finance
+-	Select end of month
+-	After done send email to Finance team with report
+```
+
+## Report Error
+
+>- remote server 10 => Component Server => right click icon WBReports => select Shut down
+
+
