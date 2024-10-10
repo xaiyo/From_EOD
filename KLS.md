@@ -53,6 +53,7 @@ Password@!!!###
 wiseadmin
 Wi$e@dm1n
 Wi$e@dmin724
+Wi$e@Kls724
 ```
 
 ### Run Batch
@@ -108,7 +109,7 @@ Wi$e@dmin724
    - Click “Init ” and select criteria as below
    ```
    Business : All
-   From Date : 01/10/2023 - Current date
+   From Date : 01/01/2023 - Current date
    To Date : Current Date 
    Loan Origination Status : All
    Brach : Head Office
@@ -146,7 +147,7 @@ Wi$e@dmin724
    - Click “Init ” and select criteria as below
    ```
    Business: All
-   Form Assignment Date : 19/01/2024 - Current Date
+   Form Assignment Date : 01/01/2024 - Current Date
    To Assignment Date : Current Date 
    Branch : Head Officer
    ```
